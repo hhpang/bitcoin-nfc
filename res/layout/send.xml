@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+	<TextView
+			android:text="Address:"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="10dp"
+		/>
+	<EditText
+			android:text="0.00"
+			android:id="@+id/address"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:lines="2"
+	        android:layout_margin="10dp"
+		/>
+	<TextView
+			android:text="Amount:"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp"
+	        android:layout_marginLeft="10dp"
+		/>
+	<EditText
+			android:text="0.00"
+			android:id="@+id/amount"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:lines="1"
+			android:inputType="numberDecimal"
+	        android:layout_margin="10dp"
+		/>
+	<Button
+			android:text="Send"
+			android:id="@+id/send"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+		/>
+</LinearLayout>

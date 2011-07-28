@@ -1,0 +1,7 @@
+syntax: glob
+gen
+out
+workspace.xml
+tasks.xml
+.svn
+*~
