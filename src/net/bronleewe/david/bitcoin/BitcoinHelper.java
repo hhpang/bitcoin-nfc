@@ -16,7 +16,7 @@ import java.net.InetSocketAddress;
 
 public class BitcoinHelper
 {
-	private final boolean Testnet = false;
+	private final boolean Testnet = true;
 	private final Context _context;
 	private final Handler _handler;
 	private final Runnable _refresh;
@@ -120,6 +120,9 @@ public class BitcoinHelper
 		});
 
 		refreshUi();
+
+		final String message = "address:" + _wallet.keychain.get(0).toAddress(_network);
+		displayMessage(message);
 	}
 
 	private void saveWallet()
