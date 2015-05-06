@@ -1,0 +1,1 @@
+This is a proof of concept app, written as a project for my Master's Report at the University of Texas. The goal is to be able to swap Bitcoins between two NFC-enabled Android devices.
